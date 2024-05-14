@@ -1,0 +1,489 @@
+body {
+    background-color: white; 
+    
+}
+
+.navbar {
+    display: flex;
+    background-color: white;
+    height: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#image1 {
+    
+    margin-top: 25px;
+    margin-left: 20px;
+    
+}
+
+.search {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    margin-left: 12px;
+    height: 8px;
+    color: #0077b5;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.MachineMinds {
+    color: #0077b5;
+}
+
+.input {
+    margin-top: 35px;
+    margin-left: 135px;
+}
+
+.place {
+    width: 500px;
+    height: 25px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: black;
+}
+
+.place:hover {
+    background-color: rgb(248, 242, 242);
+}
+
+#magnify {
+    margin-top: 38px;
+    margin-left: 5px;
+    height: 27px;
+    width: 35px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+.fa-solid fa-magnifying-glass {
+    height: 20px;
+    width: 20px;
+    margin-top: 100px;
+}
+
+
+.home {
+    height: 10px;
+    width: 20px;
+    margin-left: 100px;
+    margin-top: 34px;
+    text-align: center;
+}
+
+.home1 {
+    color: #5f6063;
+    height: 10px;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.home1:hover{
+    text-decoration: underline;
+}
+
+.contact {
+    height: 20px;
+    width: 20px;
+    margin-top: 34px;
+    margin-left: 30px;
+    text-align: center;
+    width: 10%;
+}
+
+.contact1 {
+    color: #5f6063;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.contact1:hover {
+    text-decoration: underline;
+}
+
+.user {
+    height: 20px;
+    width: 20px;
+    margin-top: 34px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.user1 {
+    color: #5f6063;
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.user1:hover {
+    text-decoration: underline;
+}
+
+.signin {
+    margin-top: 32px;
+    margin-left: 65px;
+    border: 1.6px solid #0077b5;
+    border-radius: 35%;
+    width: 80px;
+    text-align: center;
+    height: 40px;
+}
+
+.signin1 {
+    margin-top: 12px;
+    color: #0077b5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.signin1:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.line1 {
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+.signinpage {
+    display: flex;
+}
+
+.pic1 {
+    height: 600px;
+    width: 600px;
+    margin-left: 150px;
+}
+
+.signinpart {
+    background-color: #f8fafb;
+    height: 600px;
+    width: 600px;
+}
+
+.welcome {
+    margin-left: 10px;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.emailenter {
+    display: flex;
+    margin-left: 74px;
+}
+
+.emaildalo input {
+    margin-top: 5px;
+    margin-left: 30px;
+    color: #181919;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: medium;
+    color: #181919;
+}
+
+.passenter {
+    display: flex;
+    margin-left: 74px;
+}
+
+.passdalo input {
+    margin-top: 7px;
+    margin-left: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: medium;
+    color: #181919;
+}
+
+
+.passreenter {
+    display: flex;
+    margin-left: 74px;
+    
+}
+
+.passredalo  input {
+    margin-top: 7px;
+    margin-left: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: medium;
+    color: #181919;
+}
+
+.phoneenter {
+    display: flex;
+    margin-left: 75px;
+    
+    border-top: #f8fafb;
+}
+
+.phonedalo input {
+    margin-top: 5px;
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: medium;
+    
+}
+
+::placeholder {
+    color: #181919;
+}
+
+.button {
+    display: flex;
+}
+
+.button1 {
+    margin-top: 30px;
+    margin-left: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0077b5;
+    width: 130px;
+    text-align: center;
+    height: 40px;
+    justify-content: center;
+    border-radius: 20%;
+    color: white;
+}
+
+.button1:hover {
+    background-color: #a7a8a9;
+}
+
+.signupnow1 {
+    text-decoration: none;
+    color: white;
+}
+
+.signupnow {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 8px;
+}
+
+.button2 {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    width: 130px;
+    text-align: center;
+    height: 40px;
+    justify-content: center;
+    color: #181919;
+}
+
+.getlogin1 {
+    text-decoration: none;
+    color: rgb(91, 89, 89);
+}
+
+.getlogin {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot {
+    margin-top: 200px;
+    background-color: #33475b;
+    height: 300px;
+    width: 100%;
+}
+
+.branding {
+    display: flex;
+}
+
+.fb {
+    margin-top: 80px;
+    margin-left: 630px;
+    text-align: center;
+    width: 100%;
+}
+
+.twitter {
+    margin-top: 80px;
+    margin-left: 29px;
+    
+}
+
+.linkedin {
+    margin-top: 80px;
+    margin-left: 35px;
+    
+}
+
+.insta {
+    margin-top: 80px;
+    margin-right: 630px;
+    margin-left: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.details {
+    display: flex;
+    margin-top: 35px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.homedetails {
+    color: white;
+    text-decoration: none;
+    margin-left: 480px;
+    text-align: center;
+    width: 100%;
+}
+
+.homedetails:hover {
+    text-decoration: underline;
+}
+
+.vertical1 {
+    margin-top: 4.5px;
+    border-left: 2px solid;
+    height: 15px;
+    position: absolute;
+    left: 38.5%;
+    color: white;
+}
+
+.aboutdetails {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.aboutdetails:hover {
+    text-decoration: underline;
+}
+
+.vertical2 {
+    margin-top: 4.5px;
+    border-left: 2px solid;
+    height: 15px;
+    position: absolute;
+    left: 46%;
+    color: white;
+}
+
+.servicesdetails {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.servicesdetails:hover {
+    text-decoration: underline;
+}
+
+.vertical3 {
+    margin-top: 4.5px;
+    border-left: 2px solid;
+    height: 15px;
+    position: absolute;
+    left: 54.5%;
+    color: white;
+}
+
+.teamdetails {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.teamdetails:hover {
+    text-decoration: underline;
+}
+
+.vertical4 {
+    margin-top: 4.5px;
+    border-left: 2px solid;
+    height: 15px;
+    position: absolute;
+    left: 62%;
+    color: white;
+}
+
+.contactdetails {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 470px;
+    text-align: center;
+    width: 100%;
+}
+
+.contactdetails:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    font-style: italic;
+    text-align: center;
+    margin-top: 75px;
+    color: white;
+}
+
+.reserved {
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+
